@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment Review-bdnews24.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="magic.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <!--link href="one-page-wonder.css" rel="stylesheet"-->
+</head>
+<body>
+
+            <div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6  col-sm-offset-2 col-md-offset-3 col_center">
+						<div class="col_left">
+						<img alt="bdnews24" height="" src="http://d30fl32nd2baj9.cloudfront.net/media/2016/05/10/bdnews24.png/BINARY/bdnews24.png">
+						</div>
+						<div class="col_right">
+							<label>Mr. ABC</label>
+					   		<p><a href="#" class="btn btn-info">
+	          				<span class="glyphicon glyphicon-log-out"></span> Log out
+	       				   </a></p>
+				   		</div>	
+				   	</div>
+				</div>
+				<div class="row">
+
+				</div>
+                <div class="row">
+                	<div class="col-xs-12 col-sm-8 col-md-3 col-lg-3 visible-md visible-lg">
+				   		<h3>Menu</h3>
+						  <ul class="list-group">
+						    <li class="list-group-item"><span class="badge">12</span><a href="mycart.html">My Cart</a></li>
+						    <li class="list-group-item"><span class="badge">5</span><a href="mytransactions.html">My Transactions</a></li>  
+						    <li class="list-group-item"><span class="badge">3</span><a href="myaccount.html">My Account</a></li>  
+						  </ul>
+				   	</div>
+                    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-0">
+                        <form role="form">
+             			<div class="dropdown col_left visible-xs visible-sm">
+				      	  <button type="button" data-toggle="dropdown" class="btn btn-default btn-sm" id="menu1">
+				          <span class="glyphicon glyphicon-menu-hamburger"></span> Menu
+				          </button>
+				            <ul class="dropdown-menu" aria-labelledby="menu1">
+							    <li class="list-group-item"><a href="mycart.html">My Cart</a></li>
+							    <li class="list-group-item"><a href="mytransactions.html">My Transactions</a></li>  
+							    <li class="list-group-item"><a href="myaccount.html">My Account</a></li>
+							</ul>
+						</div>
+						<div class="col_center"><h2>My Account</h2></div> 
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                      <ul class="list-group">
+									    <li class="list-group-item">Name: <span class="">Mr. Abcd Efgh</span>
+											<div class="col_right"><button type="button" class="btn btn-info btn-default" data-toggle="modal" data-target="#editname">edit</button></div>
+										</li>
+									    <li class="list-group-item">Organization Name:<span class="">A B Media</span></li>  
+									    <li class="list-group-item">Email: <span class="">qwerty@email.com</span></li>  
+									  </ul>
+									  <button type="button" class="btn btn-info btn-default" data-toggle="modal" data-target="#changepass">Change Password</button>
+                                </div>
+                            </div>
+	                           
+                        </form>
+                    </div>
+                </div>
+            </div>
+<!--Modal starts-->
+	<!-- Modal edit name-->
+	  <div class="modal fade" id="editname" role="dialog">
+		<div class="modal-dialog">    
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Modal Header</h4>
+			</div>
+			<div class="modal-body">
+			  <form role="form">
+				  <div class="form-group">
+					<label for="order_id">Enter your name</label>
+					<input type="text" class="form-control" name="customer_name" value="">
+				  </div>
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</form> 
+			</div>
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		  </div>
+		  
+		</div>
+	  </div>
+	<!-- Modal change password-->
+	  <div class="modal fade" id="changepass" role="dialog">
+		<div class="modal-dialog">    
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">Modal Header</h4>
+			</div>
+			<div class="modal-body">
+			  <form role="form">
+				<div class="row">
+				  <div class="form-group">
+					<!--label class="control-label col-sm-2" for="pwd">Password:</label-->
+					<div class="col-xs-8 col-xs-offset-2"> 
+					  <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<!--label class="control-label col-sm-2" for="pwd">Cofirm password:</label-->
+					<div class="col-xs-8 col-xs-offset-2"> 
+					  <input type="password" class="form-control" id="confpwd" placeholder="confirm password">
+					</div>
+				  </div>	
+					<div class="col-xs-8 col-xs-offset-2 col_left">
+						<button type="submit" class="btn btn-primary">Submit</button>
+					</div>
+				  </div>
+				  </form>
+			</div>
+			<div class="modal-footer">
+
+				<div class="col_right">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		  </div>
+		  
+		</div>
+	  </div>	  
+<!--Modal Ends-->			
+<div class = "container" style = "padding: 40px;">
+   <div class = "row visible-on">
+      
+      <div class = "col-xs-6 col-sm-3" style = "background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         
+         <span class = "hidden-xs">Extra small</span>
+         <span class = "visible-xs">✔ Visible on x-small</span>
+      </div>
+      
+      <div class = "col-xs-6 col-sm-3" style = "background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         
+         <span class = "hidden-sm">Small</span>
+         <span class = "visible-sm">✔ Visible on small</span>
+      </div>
+      
+      <div class = "clearfix visible-xs"></div>
+      
+      <div class = "col-xs-6 col-sm-3" style = "background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         
+         <span class = "hidden-md">Medium</span>
+         <span class = "visible-md">✔ Visible on medium</span>
+      </div>
+      
+      <div class = "col-xs-6 col-sm-3" style = "background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         
+         <span class = "hidden-lg">Large</span>
+         <span class = "visible-lg">✔ Visible on large</span>
+      </div>
+      
+   </div>  
+</div>
+
+</body>
+</html>
+

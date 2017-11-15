@@ -1,0 +1,3 @@
+view tractions -> data transaction-id, card-no, amount, status
+my account -> edit name, edit password 
+my cart

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment Review-bdnews24.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+			<div class="row">
+				<div class="col-md-8 col_header">
+
+						<div class="row">
+						<div class="col-md-6">
+			   			 <img alt="bdnews24" src="http://d30fl32nd2baj9.cloudfront.net/media/2016/04/27/onlybdnews24.png/BINARY/onlybdnews24.png">
+			   			 </div>
+			   			 <div class="col-md-6">
+			   			 <h2>Payment System</h2> 
+			   			 </div>
+			   			 </div>
+
+				</div>
+				<!--div class="col-md-6">
+				  <div class="jumbotron col_header">
+				  	
+				  </div>
+				</div-->
+			</div>
+  <div class="row">
+    <div class="col-md-10 col-centered">
+      <div class="jumbotron col_form">
+      	<h3>Review before going for payment options</h3>
+      		<div class="row">
+      			<div class="col-md-6 col_left">
+      				<h4>Your information</h4>
+	      			<form role="form">
+						  <div class="form-group">
+						    <label for="email">Email address</label>
+						    <input type="email" class="form-control" id="email" value="abc@bdnews24.com" readonly="readonly">
+						  </div>
+						  
+					</form>
+				</div>
+      			<div class="col-md-6 col_right">
+      				<h4>Order information</h4>
+				  <form role="form">
+					  <div class="form-group">
+					    <label for="order_id">Order id</label>
+					    <input type="number" class="form-control" name="order_id" value="1011" readonly="readonly">
+					  </div>
+					  <div class="form-group">
+					  	<label for="">Placement</label>
+					  	<input type="text" class="form-control" name="placement" value="mobile-slot-1" readonly="readonly">
+					  </div>
+					  <div class="form-group">
+					  	<label for="">Total Amount</label>
+					  	<input type="number" class="form-control" name="total_amount" value="10000.40" readonly="readonly">
+					  </div>
+					  <div class="form-group">
+					  	<input type="hidden" name="store_id" value='ekushey'>
+						<input type="hidden" name="tran_id" value='ORDID123456789'>
+						<input type="hidden" name="success_url"	value='http://payment.bdnews24.com/success.aspx'>
+						<input type="hidden" name="fail_url"	value='http://payment.bdnews24.com/fail.aspx'>
+						<input type="hidden" name="cancel_url"	value='http://payment.bdnews24.com/cancel.aspx'>
+					  </div>
+					  <div class="form-group">
+					  	<label for=""></label>			  	
+					  </div>
+					  
+					  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+				</form>
+			</div>			
+		</div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row">
+	<div class="col-md-8 col-centered-footer">
+		<div class="jumbotron">
+
+		</div>
+	</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+@CHARSET "UTF-8";
+.col_center{
+	
+}
+.col_center h2,h3{
+	text-align: center;
+	margin-top: 0px;
+}
+.col_form{
+	
+}
+.col_left{
+float: left;
+}
+.col_left img{
+	padding: 15px 0px;
+}
+.col_right{
+float: right;
+}
+@import url('http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+body {
+    padding-top: 15px;
+    background-color: #f9f9f9;
+}
+
+
+
+@import url("http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Roboto:400,300,700italic,700,500&subset=latin,latin-ext");
+body {
+/*    padding-top: 40px;
+    padding-bottom: 40px;
+    */
+}
+
+body {
+   /* margin-top: 50px; */
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+/* grid system via getbootstrap.com/examples/grid/grid.css */
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+h4 {
+    margin-top: 25px;
+}
+
+.btn-center {
+    margin-left: 41%;
+}
+
+.navbar-inverse {
+    background-color: #F6F6F6;
+    border-color: #f6f6f6;
+}
+
+div.footer-copyright {
+    background: #316441 url(pattern.png) repeat center center !important;
+}
+
+
+
+.row {
+  /*  margin-bottom: 20px; */
+}
+
+.row .row {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+}
+
+

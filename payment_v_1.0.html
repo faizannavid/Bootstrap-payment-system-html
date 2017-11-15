@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Payment Review-bdnews24.com</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xs-6 col-xs-offset-3 col-md-3 col-md-offset-3">
+	   		<img alt="bdnews24" src="http://d30fl32nd2baj9.cloudfront.net/media/2016/04/27/onlybdnews24.png/BINARY/onlybdnews24.png">
+	   	</div>
+	   	<div class="col-xs-8 col-xs-offset-3 col-md-3">
+	   		<h2>Payment System</h2> 
+		</div>
+	</div>
+
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-md-4 col-md-offset-2">
+			<h4>Your information</h4>
+	   		<form role="form">
+				<div class="form-group">
+					<label for="email">Email address</label>
+					<input type="email" class="form-control" id="email" value="abc@bdnews24.com" readonly="readonly">
+				</div>			  
+			</form>
+	   	</div>
+	   	<div class="col-xs-12 col-md-4">
+	   		<h4>Order information</h4>
+				  <form role="form">
+					  <div class="form-group">
+					    <label for="order_id">Order id</label>
+					    <input type="number" class="form-control" name="order_id" value="1011" readonly="readonly">
+					  </div>
+					  <div class="form-group">
+					  	<label for="">Placement</label>
+					  	<input type="text" class="form-control" name="placement" value="mobile-slot-1" readonly="readonly">
+					  </div>
+					  <div class="form-group">
+					  	<label for="">Total Amount</label>
+					  	<input type="number" class="form-control" name="total_amount" value="10000.40" readonly="readonly">
+					  </div>
+					  <div class="form-group">
+					  	<input type="hidden" name="store_id" value='ekushey'>
+						<input type="hidden" name="tran_id" value='ORDID123456789'>
+						<input type="hidden" name="success_url"	value='http://payment.bdnews24.com/success.aspx'>
+						<input type="hidden" name="fail_url"	value='http://payment.bdnews24.com/fail.aspx'>
+						<input type="hidden" name="cancel_url"	value='http://payment.bdnews24.com/cancel.aspx'>
+					  </div>
+					  <div class="form-group">
+					  	<label for=""></label>			  	
+					  </div>
+					  
+					  <button type="submit" class="btn btn-primary">Submit</button>
+				</form> 
+		</div>
+	</div>
+
+</div>
+<div class = "container" style = "padding: 40px;">
+   <div class = "row visible-on">
+      
+      <div class = "col-xs-6 col-sm-3" style = "background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         
+         <span class = "hidden-xs">Extra small</span>
+         <span class = "visible-xs">✔ Visible on x-small</span>
+      </div>
+      
+      <div class = "col-xs-6 col-sm-3" style = "background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         
+         <span class = "hidden-sm">Small</span>
+         <span class = "visible-sm">✔ Visible on small</span>
+      </div>
+      
+      <div class = "clearfix visible-xs"></div>
+      
+      <div class = "col-xs-6 col-sm-3" style = "background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         
+         <span class = "hidden-md">Medium</span>
+         <span class = "visible-md">✔ Visible on medium</span>
+      </div>
+      
+      <div class = "col-xs-6 col-sm-3" style = "background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+         
+         <span class = "hidden-lg">Large</span>
+         <span class = "visible-lg">✔ Visible on large</span>
+      </div>
+      
+   </div>  
+</div>
+<div class = "container">
+</body>
+</html>
